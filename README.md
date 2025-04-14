@@ -1,61 +1,71 @@
-# DevPas-Components-Pack
+# Delphi components and libraries pack
 
-Regroupement des dépôts permettant d'ajouter des fonctionnalités sous forme de librairies ou de composants à Delphi
+[Cette page en français.](LISEZMOI.md)
 
-A utiliser si vous désirez installer tous mes packs de composants en une seule fois au lieu de les faire un par un.
+This repository contains a set of projects in the form of sub-modules. You can download them all at once and then view or use them according to their respective licenses.
 
------
+You can also consult the [other project packs](https://github.com/DeveloppeurPascal?tab=repositories&q=pack&type=&language=&sort=) in [my GitHub account](https://github.com/DeveloppeurPascal), or [the one](https://github.com/DeveloppeurPascal/_AllProjects) that contains them all.
 
-Vous pouvez [soutenir les projets sur lesquels je travaille](https://vasur.fr/sponsoropensource) et en profiter pour accéder à tout ce que je fais en ligne. Chaque abonnement compte pour me donner du temps pour travailer sur ces projets open source et produire les articles et les vidéos auxquels vous aurez accès depuis [Zone Abo](https://zone-abo.fr), [Serial Streameur](https://serialstreameur.fr) et [Apprendre Delphi](https://apprendre-delphi.fr).
+## Talks and conferences
 
------
+### Twitch
 
-* androidtv-delphi
-https://github.com/DeveloppeurPascal/androidtv-delphi
+Follow my development streams of software, video games, mobile applications and websites on [my Twitch channel](https://www.twitch.tv/patrickpremartin) or as replays on [Serial Streameur](https://serialstreameur.fr) mostly in French.
 
-Librairies et composants dédiés au développement d'applications Android à destination de AndroidTV, des TV Android et box Android TV.
+## Source code installation
 
-* Delphi-DBExtend-Library
-https://github.com/DeveloppeurPascal/Delphi-DBExtend-Library
+If you download a ZIP file from GitHub it will be empty. You must use "git" command or a GUI to clone or fork this code repository with its submodules.
 
-Librairies et composants ajoutant des fonctionnalités aux frameworks de bases de données fournis par Embarcadero ou proposés par d'autres éditeurs.
+After cloning this repository, don't forget to update all projects with the command :
 
-* Delphi-FMXExtend-Library
-https://github.com/DeveloppeurPascal/Delphi-FMXExtend-Library
+```bash
+git submodule update --remote
+```
 
-Librairies et composants dédiés aux projets FireMonkey.
+If you didn't clone the project with its sub modules, use those git commands : 
 
-* Delphi-NoCode-Library
-https://github.com/DeveloppeurPascal/Delphi-NoCode-Library
+```bash
+git submodule init
+git submodule update --remote
+```
 
-Librairies et composants permettant d'ajouter des fonctionnalités "no code" qui ne sont pas disponibles en standard dans Delphi. Touche les projets VCL et FireMonkey.
+[This repository](https://github.com/DeveloppeurPascal/Delphi-ComponentsAndLibraries-Pack) and all projects are available on [my GitHub account](https://github.com/DeveloppeurPascal).
 
-* Delphi-VCLExtend-Library
-https://github.com/DeveloppeurPascal/Delphi-VCLExtend-Library
+## License to use this code repository and its contents
 
-Librairies et composants dédiés aux projets VCL.
+This source code is distributed under the [AGPL 3.0 or later license](https://choosealicense.com/licenses/agpl-3.0/). It's not the case for all of my other projects. Take a look at every LICENSE and README.md file before doing garbage.
 
-* FMXGameEngine
-https://github.com/DeveloppeurPascal/FMXGameEngine.git
+You are generally free to use the contents of this code repository anywhere, provided that:
+* you mention it in your projects
+* distribute the modifications made to the files supplied in this project under the AGPL license (leaving the original copyright notices (author, link to this repository, license) which must be supplemented by your own)
+* to distribute the source code of your creations under the AGPL license.
 
-Librairies et composants dédiés à la programmation de jeux vidéos en projets FireMonkey sous Delphi.
+If this license doesn't suit your needs (especially for a commercial project) I also offer [standard developer licenses](https://store.developpeur-pascal.fr/en/) and you can always [contact me to discuss](https://developpeur-pascal.fr/nous-contacter.php).
 
-* librairies
-https://github.com/DeveloppeurPascal/librairies
+These source codes are provided as is, without warranty of any kind.
 
-Librairies de classes, procédures et fonctions que j'utilise un peu partout dans mes projets. Un fourre tout sous forme de boite à outils.
+Certain elements included in this repository may be subject to third-party usage rights (images, sounds, etc.). They are not reusable in your projects unless otherwise stated.
 
------
+## How to ask a new feature, report a bug or a security issue ?
 
-Si vous ne connaissez pas Delphi et le langage Pascal, profitez de la version Academic (pour les étudiants, enseignants et établissements d'enseignement) ou Community Edition (gratuite pour une utilisation personnelle) disponibles chez Embarcadero (rubrique "outils gratuits").
-En entreprise vous pouvez aussi tester Delphi avec la version d'évaluation.
-https://www.embarcadero.com/products/delphi
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/Delphi-ComponentsAndLibraries-Pack) and [open a new issue](https://github.com/DeveloppeurPascal/Delphi-ComponentsAndLibraries-Pack/issues).
 
-Cette formation en ligne gratuite vous apprendra les bases de la programmation avec le Pascal et Delphi même si vous n'avez jamais appris à programmer :
-https://apprendre-delphi.fr/apprendre-la-programmation-avec-delphi/
+If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 
-Des conférences en ligne et des webinaires (points techniques sur des sujets précis) sont organisés régulièrement. Consultez [le planning de ces webinaires](https://developpeur-pascal.fr/p/_6007-webinaires.html) et regardez les [rediffusions des webinaires Delphi](https://serialstreameur.fr/webinaires-delphi.php).
+You also can fork the repository and contribute by submitting pull requests if you want to help. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-Des sessions de [live coding sur Twitch](https://www.twitch.tv/patrickpremartin) ou [la chaîne YouTube Developpeur Pascal](https://www.youtube.com/channel/UCk_LmkBB90jdEdmfF77W6qQ) sont également organisées régulièrement. Pour Twitch vous pouvez consulter [le planning hebdomadaire](https://www.twitch.tv/patrickpremartin/schedule). Vous pouvez aussi vous reporter à [cet article](https://developpeur-pascal.fr/p/_600e-livestreams-de-codage-en-direct-avec-delphi.html). Pour les rediffusions de tout ça, rendez-vous simplement dans la [rubrique live coding](https://serialstreameur.fr/live-coding.php) de [Serial Streameur](https://serialstreameur.fr/) où vous trouverez de nombreuses vidéos en français à destination des développeurs de logiciels, applications mobiles, sites web et jeux vidéo.
+## Support the project and its author
 
-Enfin, si vous préférez la lecture à la vidéo, vous trouverez tous les livres récents publiés sur Delphi et le langage Pascal sur [Delphi Books](https://delphi-books.com)
+If you think this project is useful and want to support it, please make a donation to [its author](https://github.com/DeveloppeurPascal). It will help to maintain the code and binaries.
+
+You can use one of those services :
+
+* [GitHub Sponsors](https://github.com/sponsors/DeveloppeurPascal)
+* Ko-fi [in French](https://ko-fi.com/patrick_premartin_fr) or [in English](https://ko-fi.com/patrick_premartin_en)
+* [Patreon](https://www.patreon.com/patrickpremartin)
+* [Liberapay](https://liberapay.com/PatrickPremartin)
+* [Paypal](https://www.paypal.com/paypalme/patrickpremartin)
+
+You can buy [my softwares](https://lic.olfsoftware.fr/products.php?lng=en), [my video games](https://lic.gamolf.fr/products.php?lng=en) or [a developer license for my libraries](https://lic.developpeur-pascal.fr/products.php?lng=en) if you use them in your projects.
+
+If you speak French [subscribe to Zone Abo](https://zone-abo.fr/nos-abonnements.php) to access my complete online archive (articles, videos, training videos, ebooks).

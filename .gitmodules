@@ -16,6 +16,42 @@
 [submodule "androidtv-delphi"]
 	path = androidtv-delphi
 	url = https://github.com/DeveloppeurPascal/androidtv-delphi.git
-[submodule "FMXGameEngine"]
-	path = FMXGameEngine
-	url = https://github.com/DeveloppeurPascal/FMXGameEngine.git
+[submodule "AboutDialog-Delphi-Component"]
+	path = AboutDialog-Delphi-Component
+	url = https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component.git
+[submodule "Delphi-Game-Engine"]
+	path = Delphi-Game-Engine
+	url = https://github.com/DeveloppeurPascal/Delphi-Game-Engine.git
+[submodule "Delphi-Translation-Library"]
+	path = Delphi-Translation-Library
+	url = https://github.com/DeveloppeurPascal/Delphi-Translation-Library.git
+[submodule "Socket-Messaging-Library"]
+	path = Socket-Messaging-Library
+	url = https://github.com/DeveloppeurPascal/Socket-Messaging-Library.git
+[submodule "DeepL4Delphi"]
+	path = DeepL4Delphi
+	url = https://github.com/DeveloppeurPascal/DeepL4Delphi.git
+[submodule "LogNPass4Delphi"]
+	path = LogNPass4Delphi
+	url = https://github.com/DeveloppeurPascal/LogNPass4Delphi.git
+[submodule "DelphiBooks4Delphi"]
+	path = DelphiBooks4Delphi
+	url = https://github.com/DeveloppeurPascal/DelphiBooks4Delphi.git
+[submodule "DelphiBooks-Common"]
+	path = DelphiBooks-Common
+	url = https://github.com/DeveloppeurPascal/DelphiBooks-Common.git
+[submodule "Delphi-SkiaExtend-Library"]
+	path = Delphi-SkiaExtend-Library
+	url = https://github.com/DeveloppeurPascal/Delphi-SkiaExtend-Library.git
+[submodule "TableDataSync4Delphi"]
+	path = TableDataSync4Delphi
+	url = https://github.com/DeveloppeurPascal/TableDataSync4Delphi.git
+[submodule "FSoDB4Delphi"]
+	path = FSoDB4Delphi
+	url = https://github.com/DeveloppeurPascal/FSoDB4Delphi.git
+[submodule "Gamolf-FMX-Game-Starter-Kit"]
+	path = Gamolf-FMX-Game-Starter-Kit
+	url = https://github.com/DeveloppeurPascal/Gamolf-FMX-Game-Starter-Kit.git
+[submodule "FMX-Styles-Utils"]
+	path = FMX-Styles-Utils
+	url = https://github.com/DeveloppeurPascal/FMX-Styles-Utils.git
